@@ -1,0 +1,87 @@
+public class Apartment {
+    
+        static int apartmentId  ;
+        static String name  ;
+        static String location ;
+        static int totalFlats  ;
+        static int floors ;
+        static boolean  ;
+        static boolean powerBackup ;
+        static boolean waterSupply24x7 ;
+        static boolean securityAvailable  ;
+        static int parkingSlots  ;
+       static  boolean isPlayArea ;
+       static  boolean isGym  ;
+        static boolean isSwimmingPool ;
+        static boolean isCommunityHall  ;
+        static boolean isCCTV  ;
+       static  boolean isRainWaterHarvesting ;
+       static  boolean isIntercom ;
+       static  boolean isGasPipeline  ;
+        static boolean isSolarHeater  ;
+        static  String apartmentType  ;
+public static void main(String args[]) {
+	System.out.println("Apartment Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Total Flats: " + totalFlats);
+        System.out.println("Floors: " + floors);
+        System.out.println("Lift Available: " + liftAvailable);
+        System.out.println("Power Backup: " + powerBackup);
+        System.out.println("24x7 Water Supply: " + waterSupply24x7);
+        System.out.println("Security: " + securityAvailable);
+        System.out.println("Parking Slots: " + parkingSlots);
+        System.out.println("Play Area: " + isPlayArea);
+        System.out.println("Gym: " + isGym);
+        System.out.println("Swimming Pool: " + isSwimmingPool);
+        System.out.println("Community Hall: " + isCommunityHall);
+        System.out.println("CCTV: " + isCCTV);
+        System.out.println("Rainwater Harvesting: " +isRainWaterHarvesting);
+        System.out.println("Intercom: " + isIntercom);
+        System.out.println("Gas Pipeline: " + isGasPipeline);
+        System.out.println("Solar Heater: " + isSolarHeater);
+        System.out.println("Apartment Type: " + apartmentType);
+        System.out.println("Apartment ID: " + apartmentId);
+	
+	  apartmentId = 1101;
+       name = "Sunshine Residency";
+         location = "Whitefield";
+         totalFlats = 80;
+         floors = 10;
+         liftAvailable = true;
+         powerBackup = true;
+         waterSupply24x7 = true;
+          securityAvailable = true;
+         parkingSlots = 100;
+        isPlayArea = true;
+         isGym = true;
+          isSwimmingPool = true;
+          isCommunityHall = true;
+          isCCTV = true;
+         isRainWaterHarvesting = true;
+         isIntercom = true;
+       isGasPipeline = true;
+         isSolarHeater = true;
+         apartmentType = "2BHK & 3BHK";
+        System.out.println("Apartment Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Total Flats: " + totalFlats);
+        System.out.println("Floors: " + floors);
+        System.out.println("Lift Available: " + liftAvailable);
+        System.out.println("Power Backup: " + powerBackup);
+        System.out.println("24x7 Water Supply: " + waterSupply24x7);
+        System.out.println("Security: " + securityAvailable);
+        System.out.println("Parking Slots: " + parkingSlots);
+        System.out.println("Play Area: " + isPlayArea);
+        System.out.println("Gym: " + isGym);
+        System.out.println("Swimming Pool: " + isSwimmingPool);
+        System.out.println("Community Hall: " + isCommunityHall);
+        System.out.println("CCTV: " + isCCTV);
+        System.out.println("Rainwater Harvesting: " +isRainWaterHarvesting);
+        System.out.println("Intercom: " + isIntercom);
+        System.out.println("Gas Pipeline: " + isGasPipeline);
+        System.out.println("Solar Heater: " + isSolarHeater);
+        System.out.println("Apartment Type: " + apartmentType);
+        System.out.println("Apartment ID: " + apartmentId);
+    }
+}
+
