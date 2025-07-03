@@ -1,0 +1,163 @@
+                                                               JAVA
+
+
+
+Applications are build to manage data.technologies are build using programming language using programming concepts.
+
+program means a set of activeities/chain of activities
+
+written program
+programing language: a language which is written/executed on computer
+syntax will be given by the respective language
+
+programming language provides syntax and symantics.
+
+In c language source code to assembler gives the os+proccessor specific  (eg. IBM)code it povides so it is platform dependent
+but in Java source code turns into byte code by compiler 
+and gives it to Jvm which is platform independent.
+CORA:compile once run anywhere
+
+source code->byte code -> jvm
+
+3 components
+--------------
+JVM 
+JRE
+JDK:fully feutured software developement kit
+
+JVM function:
+-------------
+1)loads the byte code//class loader
+2)Verifies the byte code// valid or does not vilate the rules of security//byte code verifier
+3)read the byte code stream line by line and execute the same//Interpreter
+4)Provide run time environment
+
+byte code is platform independent
+
+JVM:runtime environment
+jre=jvm+set libraries
+jdk=jre+developement kit
+jdk also contains developement kit helps to compile code
+JDK:JRE+developement tools(compiler,debugger,java docs etc in bin folder).
+
+
+jdk :programming(compile)+execute
+
+JRE  is minimum required to execute  the java code (byte code).
+
+types of application
+---------------------
+web application:ecommerce
+enterprise application:zoho
+embedded application: IOT
+mobile application:android,ios
+standalone application:jdk
+cloud application:aws
+
+testing tools:selenium
+
+
+There are 4 Variables in java
+------------------------------
+1.Instance/Non-static
+2.Class/Static
+3.Local
+4.Parameters
+
+If we want to call a reference variable which is outside main methode then it should  be static 
+class Medicine{
+static int medicineId=1;
+public static void main(String args[]){
+	
+	String name="Dolo";
+	String mfgDate="19/06/2025";
+	String expiryDate="20/06/2027";
+	System.out.println("Medicine id is "+medicineId);
+	System.out.println("Medicine name is "+name);
+	System.out.println("Medicine mfgDate is "+mfgDate);
+	System.out.println("Medicine expiryDate is "+expiryDate);
+}
+}
+
+Variable
+---------
+Variable is a registerd area allocated on  a memory.peice of memory which contain a memory.
+
+
+Datatype
+---------
+represent the type of reference  or to identify the type of piece of memory
+
+2 Types:
+
+1.Primitive:Anything that starts with lowercase letter then it is primitive
+8:int,long,float,double,boolean,char,byte,short.
+
+2.Object references:Anything that starts with uppercase letter then it is Object references .
+eg class Name starts with uppercase String ,System.out.println,enum,anotation.
+
+
+if the variable declared outside methode without any reference variable it will give null value ,if it inside it will give error
+
+public class SolarSystem {
+	
+        static int totalPlanets = 8;
+        static String centralStar = "Sun";
+        static  double sunMass ;//here
+public static void main(String[] Shivani)//here we can give any string in the place of args {
+        System.out.println("Total Planets: " + totalPlanets);
+       System.out.println("Central Star: " + centralStar);
+        System.out.println("Sun Mass: " + sunMass + " kg");
+}}
+
+
+2 steps to use variable
+------------------------
+1)Declaration      //data type
+2)Initialization   //reference type
+
+  = Initialization operator
+
+Datatype refName = ref/data/value;
+
+Stack -> executes methodes//it will have a frames which contains seperate methodes linke main ,println etc which will be stored in a frame
+println is a methode
+
+
+Arrays
+---------
+set of references of similar data types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
