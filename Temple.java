@@ -1,86 +1,9 @@
-public class Temple {
-    
-        static int templeId  ;
-        static String name  ;
-        static String location ;
-        static String state ;
-        static String deity  ;
-        static int builtYear  ;
-        static String architecturalStyle ;
-        static int numberOfTowers ;
-        static boolean hasGopuram  ;
-        static boolean hasPond ;
-        static int dailyVisitors  ;
-        static  boolean hasGuides ;
-        static  boolean freeEntry  ;
-        static boolean audioTourAvailable  ;
-        static boolean hasLighting  ;
-        static boolean hasFestivals  ;
-        static int numberOfPriests  ;
-        static boolean cameraAllowed  ;
-        static String templeTimings  ;
-        static boolean parkingAvailable ;
-public static void main(String args[]) {
-	System.out.println("Temple Name: " + name);
-        System.out.println("Location: " + location);
-        System.out.println("State: " + state);
-        System.out.println("Deity: " + deity);
-        System.out.println("Built Year: " + builtYear);
-        System.out.println("Architectural Style: " + architecturalStyle);
-        System.out.println("Towers: " + numberOfTowers);
-        System.out.println("Gopuram Present: " + hasGopuram);
-        System.out.println("Pond Present: " + hasPond);
-        System.out.println("Daily Visitors: " + dailyVisitors);
-        System.out.println("Guides Available: " + hasGuides);
-        System.out.println("Free Entry: " + freeEntry);
-        System.out.println("Audio Tour Available: " + audioTourAvailable);
-        System.out.println("Lighting Available: " + hasLighting);
-        System.out.println("Festival Celebrations: " + hasFestivals);
-        System.out.println("Number of Priests: " + numberOfPriests);
-        System.out.println("Camera Allowed: " + cameraAllowed);
-        System.out.println("Timings: " + templeTimings);
-        System.out.println("Parking Available: " + parkingAvailable);
-        System.out.println("Temple ID: " + templeId);
-	
-templeId = 1401;
-name = "Meenakshi Temple";
-location = "Madurai";
-state = "Tamil Nadu";
-deity = "Meenakshi";
- builtYear = 1623;
- architecturalStyle = "Dravidian";
-  numberOfTowers = 14;
-  hasGopuram = true;
-   hasPond = true;
-  dailyVisitors = 15000;
-hasGuides = true;
-  freeEntry = true;
- audioTourAvailable = false;
-  hasLighting = true;
-   hasFestivals = true;
- numberOfPriests = 20;
-  cameraAllowed = false;
- templeTimings = "5 AM - 9 PM";
- parkingAvailable = true;
-        System.out.println("Temple Name: " + name);
-        System.out.println("Location: " + location);
-        System.out.println("State: " + state);
-        System.out.println("Deity: " + deity);
-        System.out.println("Built Year: " + builtYear);
-        System.out.println("Architectural Style: " + architecturalStyle);
-        System.out.println("Towers: " + numberOfTowers);
-        System.out.println("Gopuram Present: " + hasGopuram);
-        System.out.println("Pond Present: " + hasPond);
-        System.out.println("Daily Visitors: " + dailyVisitors);
-        System.out.println("Guides Available: " + hasGuides);
-        System.out.println("Free Entry: " + freeEntry);
-        System.out.println("Audio Tour Available: " + audioTourAvailable);
-        System.out.println("Lighting Available: " + hasLighting);
-        System.out.println("Festival Celebrations: " + hasFestivals);
-        System.out.println("Number of Priests: " + numberOfPriests);
-        System.out.println("Camera Allowed: " + cameraAllowed);
-        System.out.println("Timings: " + templeTimings);
-        System.out.println("Parking Available: " + parkingAvailable);
-        System.out.println("Temple ID: " + templeId);
+class Temple {
+    public static void main(String[] args) {
+        pray();
+    }
+
+    public static void pray() {
+        System.out.println("Devotees are offering prayers in the temple");
     }
 }
