@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Princeton University</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f8f8;
+      color: #3d3d3d;
+    }
+
+    header {
+      background-color: #e0bbff;
+      color: #3d3d3d;
+      padding: 20px;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      background-color: #ffe5ec;
+    }
+
+    nav li {
+      position: relative;
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3d3d3d;
+      padding: 8px 12px;
+      display: block;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav li:hover > ul {
+      display: block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffe5ec;
+      top: 100%;
+      left: 0;
+      min-width: 180px;
+      z-index: 1;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-content a:hover {
+      background-color: #fcb5c4;
+      color: #3d3d3d;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      display: none;
+      margin-bottom: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ffe5ec;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e0bbff;
+      color: #3d3d3d;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="princeton-logo.png" alt="Princeton Logo" width="50" />
+      <div>
+        <h1>Princeton University</h1>
+        <p>In the Nation's Service and the Service of Humanity</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li>
+          <a href="#">Academics</a>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="showSection('ug_programs')">UG Programs</a></li>
+            <li><a href="#" onclick="showSection('pg_programs')">PG Programs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Examination</a>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="showSection('ug_exam')">UG Notification</a></li>
+            <li><a href="#" onclick="showSection('pg_exam')">PG Notification</a></li>
+            <li><a href="#" onclick="showSection('result')">Result Announcement</a></li>
+            <li><a href="#" onclick="showSection('revaluation')">Revaluation</a></li>
+            <li><a href="#" onclick="showSection('timetable')">Exam Time Table</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Fees</a>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="showSection('ug_fees')">UG Fee Structure</a></li>
+            <li><a href="#" onclick="showSection('pg_fees')">PG Fee Structure</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Activities</a>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="showSection('nss')">NSS</a></li>
+            <li><a href="#" onclick="showSection('ncc')">NCC</a></li>
+            <li><a href="#" onclick="showSection('culturals')">Culturals</a></li>
+            <li><a href="#" onclick="showSection('itclub')">IT Club</a></li>
+            <li><a href="#" onclick="showSection('sports')">Sports</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Placements</a>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="showSection('ug_placements')">UG Placements</a></li>
+            <li><a href="#" onclick="showSection('pg_placements')">PG Placements</a></li>
+          </ul>
+        </li>
+        <li><a href="#" onclick="showSection('iqac')">IQAC</a></li>
+        <li><a href="#" onclick="showSection('careers')">Careers</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Princeton University</h2>
+      <p>Founded in 1746, Princeton is a prestigious Ivy League university located in Princeton, New Jersey. It is known for academic excellence, innovation, and commitment to public service.</p>
+    Princeton University is a private Ivy League research university located in Princeton, New Jersey. Founded in 1746, it's the fourth-oldest institution of higher education in the United States. Known for its strong undergraduate program and commitment to research, Princeton emphasizes a liberal arts education across humanities, arts, social sciences, natural sciences, and engineering. 
+    </section>
+
+    <section id="ug_programs">
+      <h2>Undergraduate Programs</h2>
+      <ul>
+        <li>BA in Public Policy</li>
+        <li>BS in Computer Science</li>
+        <li>BA in Psychology</li>
+      </ul>
+    </section>
+
+    <section id="pg_programs">
+      <h2>Postgraduate Programs</h2>
+      <ul>
+        <li>MPA (Public Affairs)</li>
+        <li>MS in Data Science</li>
+        <li>PhD in Philosophy</li>
+      </ul>
+    </section>
+
+    <section id="ug_exam"><h2>UG Exam Notifications</h2><p>Semester exams begin Nov 15. Admit cards from Nov 1.</p></section>
+    <section id="pg_exam"><h2>PG Exam Notifications</h2><p>Midterms scheduled Oct 10–20. Check department board.</p></section>
+    <section id="result"><h2>Result Announcement</h2><p>May 2025 results published online.</p></section>
+    <section id="revaluation"><h2>Revaluation</h2><p>Apply before July 20 with fee receipt and mark sheet.</p></section>
+    <section id="timetable"><h2>Exam Time Table</h2><p>Available on the student portal from Oct 1.</p></section>
+
+    <section id="ug_fees">
+      <h2>UG Fee Structure</h2>
+      <table>
+        <tr><th>Program</th><th>Tuition</th><th>Housing</th><th>Extras</th><th>Total</th></tr>
+        <tr><td>Public Policy</td><td>$59,000</td><td>$18,200</td><td>$2,000</td><td>$79,200</td></tr>
+        <tr><td>Computer Science</td><td>$60,500</td><td>$18,200</td><td>$2,500</td><td>$81,200</td></tr>
+        <tr><td>Psychology</td><td>$58,000</td><td>$17,800</td><td>$1,900</td><td>$77,700</td></tr>
+      </table>
+    </section>
+
+    <section id="pg_fees">
+      <h2>PG Fee Structure</h2>
+      <table>
+        <tr><th>Program</th><th>Tuition</th><th>Research</th><th>Living</th><th>Total</th></tr>
+        <tr><td>MPA</td><td>$51,000</td><td>$3,500</td><td>$19,000</td><td>$73,500</td></tr>
+        <tr><td>Data Science</td><td>$53,000</td><td>$4,000</td><td>$20,000</td><td>$77,000</td></tr>
+        <tr><td>PhD Philosophy</td><td>$49,000</td><td>$3,000</td><td>$18,000</td><td>$70,000</td></tr>
+      </table>
+    </section>
+
+    <section id="nss"><h2>NSS</h2><p>Service programs, clean-up drives, and literacy missions.</p></section>
+    <section id="ncc"><h2>NCC</h2><p>Military leadership training and national camp participation.</p></section>
+    <section id="culturals"><h2>Culturals</h2><p>Events like Princeton Fest, music and art showcases.</p></section>
+    <section id="itclub"><h2>IT Club</h2><p>Workshops on AI, hackathons, and open-source contributions.</p></section>
+    <section id="sports"><h2>Sports</h2><p>Basketball, rowing, track & field, football, and more.</p></section>
+
+    <section id="ug_placements"><h2>UG Placements</h2><p>Google, Microsoft, Goldman Sachs, 92% placement in 2024.</p></section>
+    <section id="pg_placements"><h2>PG Placements</h2><p>Top consulting and tech firms hire from our PG batch.</p></section>
+
+    <section id="iqac"><h2>IQAC</h2><p>Ensures quality enhancement and compliance.</p></section>
+    <section id="careers"><h2>Careers</h2><p>Join as faculty, research fellow, or administrator. Apply online.</p></section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: admissions@princeton.edu</p>
+      <p>Phone: +1 609-258-3000</p>
+      <p>Address: Princeton University, Princeton, NJ 08544, USA</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Princeton University | Developed by Web Team | Contact us: support@princeton.edu</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll("main section");
+      sections.forEach((section) => {
+        section.style.display = section.id === id ? "block" : "none";
+      });
+    }
+
+    window.onload = function () {
+      showSection('about');
+    };
+  </script>
+</body>
+</html>
