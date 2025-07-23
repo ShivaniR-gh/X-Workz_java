@@ -1,9 +1,8 @@
-class Jewellery {
-    int jewelleryId;
+public class Jewellery {
     String type;
-    String metal;
-    double weight;
+    String material;
+    double weightInGrams;
     double price;
-    String design;
-    boolean isHallmarked;
+    boolean isTraditional;
+    String designName;
 }

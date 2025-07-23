@@ -1,9 +1,7 @@
-class AmusementPark {
+public class AmusementPark {
     int parkId;
     String name;
-    String location;
-    int ridesAvailable;
+    String city;
+    int ridesCount;
     boolean hasWaterPark;
-    double entryFee;
-    String openSeason;
 }

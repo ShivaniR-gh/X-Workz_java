@@ -15,6 +15,7 @@ public class KarateRunner {
         System.out.println("Tournament Player: " + karate1.isTournamentPlayer);
         System.out.println("------------------------------------------");
 
+
         Karate karate2 = new Karate();
         karate2.karateId = 502;
         karate2.beltLevel = "Yellow";
@@ -125,4 +126,6 @@ public class KarateRunner {
         System.out.println("Style: " + karate9.style);
         System.out.println("Training Hours: " + karate9.trainingHours);
         System.out.println("Tournament Player: " + karate9.isTournamentPlayer);
-        System.out.println("------------------------------------------")
+        System.out.println("------------------------------------------");
+	}
+}

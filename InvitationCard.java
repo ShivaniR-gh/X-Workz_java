@@ -1,9 +1,7 @@
-class InvitationCard {
+public class InvitationCard {
     int cardId;
-    String eventType;
-    String designTheme;
-    String color;
-    String paperQuality;
-    int quantity;
-    boolean isPersonalized;
+    String eventName;
+    String hostName;
+    String venue;
+    boolean isPrinted;
 }
