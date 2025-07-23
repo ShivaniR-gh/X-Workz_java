@@ -1,0 +1,7 @@
+public class Casino {
+    int casinoId;
+    String name;
+    String location;
+    boolean isOpen24Hours;
+    int numberOfGames;
+}
