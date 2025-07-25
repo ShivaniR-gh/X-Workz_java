@@ -9,15 +9,8 @@ public class HairClipRunner {
         hairClip1.price = 15.99;
         hairClip1.isReusable = true;
         hairClip1.type = "Snap";
-
-        System.out.println("The HairClip ID is " + hairClip1.hairClipId);
-        System.out.println("The brand is " + hairClip1.brand);
-        System.out.println("The color is " + hairClip1.color);
-        System.out.println("The material is " + hairClip1.material);
-        System.out.println("The price is " + hairClip1.price);
-        System.out.println("Is Reusable: " + hairClip1.isReusable);
-        System.out.println("The type is " + hairClip1.type);
-        System.out.println("------------------------------------------");
+        hairClip1.getHairClipInfo();
+        
 
         HairClip hairClip2 = new HairClip();
         hairClip2.hairClipId = 202;
@@ -28,14 +21,7 @@ public class HairClipRunner {
         hairClip2.isReusable = true;
         hairClip2.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip2.hairClipId);
-        System.out.println("The brand is " + hairClip2.brand);
-        System.out.println("The color is " + hairClip2.color);
-        System.out.println("The material is " + hairClip2.material);
-        System.out.println("The price is " + hairClip2.price);
-        System.out.println("Is Reusable: " + hairClip2.isReusable);
-        System.out.println("The type is " + hairClip2.type);
-        System.out.println("------------------------------------------");
+        hairClip2.getHairClipInfo();
 
         HairClip hairClip3 = new HairClip();
         hairClip3.hairClipId = 203;
@@ -46,14 +32,7 @@ public class HairClipRunner {
         hairClip3.isReusable = true;
         hairClip3.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip3.hairClipId);
-        System.out.println("The brand is " + hairClip3.brand);
-        System.out.println("The color is " + hairClip3.color);
-        System.out.println("The material is " + hairClip3.material);
-        System.out.println("The price is " + hairClip3.price);
-        System.out.println("Is Reusable: " + hairClip3.isReusable);
-        System.out.println("The type is " + hairClip3.type);
-        System.out.println("------------------------------------------");
+        hairClip3.getHairClipInfo();
 
         HairClip hairClip4 = new HairClip();
         hairClip4.hairClipId = 204;
@@ -64,14 +43,7 @@ public class HairClipRunner {
         hairClip4.isReusable = true;
         hairClip4.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip4.hairClipId);
-        System.out.println("The brand is " + hairClip4.brand);
-        System.out.println("The color is " + hairClip4.color);
-        System.out.println("The material is " + hairClip4.material);
-        System.out.println("The price is " + hairClip4.price);
-        System.out.println("Is Reusable: " + hairClip4.isReusable);
-        System.out.println("The type is " + hairClip4.type);
-        System.out.println("------------------------------------------");
+        hairClip4.getHairClipInfo();
 
         HairClip hairClip5 = new HairClip();
         hairClip5.hairClipId = 205;
@@ -82,15 +54,9 @@ public class HairClipRunner {
         hairClip5.isReusable = true;
         hairClip5.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip5.hairClipId);
-        System.out.println("The brand is " + hairClip5.brand);
-        System.out.println("The color is " + hairClip5.color);
-        System.out.println("The material is " + hairClip5.material);
-        System.out.println("The price is " + hairClip5.price);
-        System.out.println("Is Reusable: " + hairClip5.isReusable);
-        System.out.println("The type is " + hairClip5.type);
-        System.out.println("------------------------------------------");
-
+        hairClip5.getHairClipInfo();
+        
+		
         HairClip hairClip6 = new HairClip();
         hairClip6.hairClipId = 206;
         hairClip6.brand = "Clippy";
@@ -100,14 +66,7 @@ public class HairClipRunner {
         hairClip6.isReusable = true;
         hairClip6.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip6.hairClipId);
-        System.out.println("The brand is " + hairClip6.brand);
-        System.out.println("The color is " + hairClip6.color);
-        System.out.println("The material is " + hairClip6.material);
-        System.out.println("The price is " + hairClip6.price);
-        System.out.println("Is Reusable: " + hairClip6.isReusable);
-        System.out.println("The type is " + hairClip6.type);
-        System.out.println("------------------------------------------");
+        hairClip6.getHairClipInfo();
 
         HairClip hairClip7 = new HairClip();
         hairClip7.hairClipId = 207;
@@ -118,14 +77,7 @@ public class HairClipRunner {
         hairClip7.isReusable = true;
         hairClip7.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip7.hairClipId);
-        System.out.println("The brand is " + hairClip7.brand);
-        System.out.println("The color is " + hairClip7.color);
-        System.out.println("The material is " + hairClip7.material);
-        System.out.println("The price is " + hairClip7.price);
-        System.out.println("Is Reusable: " + hairClip7.isReusable);
-        System.out.println("The type is " + hairClip7.type);
-        System.out.println("------------------------------------------");
+        hairClip7.getHairClipInfo();
 
         HairClip hairClip8 = new HairClip();
         hairClip8.hairClipId = 208;
@@ -135,15 +87,7 @@ public class HairClipRunner {
         hairClip8.price = 15.99;
         hairClip8.isReusable = true;
         hairClip8.type = "Snap";
-
-        System.out.println("The HairClip ID is " + hairClip8.hairClipId);
-        System.out.println("The brand is " + hairClip8.brand);
-        System.out.println("The color is " + hairClip8.color);
-        System.out.println("The material is " + hairClip8.material);
-        System.out.println("The price is " + hairClip8.price);
-        System.out.println("Is Reusable: " + hairClip8.isReusable);
-        System.out.println("The type is " + hairClip8.type);
-        System.out.println("------------------------------------------");
+         hairClip8.getHairClipInfo();
 
         HairClip hairClip9 = new HairClip();
         hairClip9.hairClipId = 209;
@@ -154,14 +98,7 @@ public class HairClipRunner {
         hairClip9.isReusable = true;
         hairClip9.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip9.hairClipId);
-        System.out.println("The brand is " + hairClip9.brand);
-        System.out.println("The color is " + hairClip9.color);
-        System.out.println("The material is " + hairClip9.material);
-        System.out.println("The price is " + hairClip9.price);
-        System.out.println("Is Reusable: " + hairClip9.isReusable);
-        System.out.println("The type is " + hairClip9.type);
-        System.out.println("------------------------------------------");
+        hairClip9.getHairClipInfo();
 
         HairClip hairClip10 = new HairClip();
         hairClip10.hairClipId = 210;
@@ -172,14 +109,7 @@ public class HairClipRunner {
         hairClip10.isReusable = true;
         hairClip10.type = "Snap";
 
-        System.out.println("The HairClip ID is " + hairClip10.hairClipId);
-        System.out.println("The brand is " + hairClip10.brand);
-        System.out.println("The color is " + hairClip10.color);
-        System.out.println("The material is " + hairClip10.material);
-        System.out.println("The price is " + hairClip10.price);
-        System.out.println("Is Reusable: " + hairClip10.isReusable);
-        System.out.println("The type is " + hairClip10.type);
-        System.out.println("------------------------------------------");
+       hairClip10.getHairClipInfo();
 
     }
 } 

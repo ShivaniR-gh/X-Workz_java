@@ -9,13 +9,7 @@ public class JewelleryRunner {
         j1.isTraditional = true;
         j1.designName = "Temple Design";
 
-        System.out.println("Type: " + j1.type);
-        System.out.println("Material: " + j1.material);
-        System.out.println("Weight (g): " + j1.weightInGrams);
-        System.out.println("Price: " + j1.price);
-        System.out.println("Traditional: " + j1.isTraditional);
-        System.out.println("Design: " + j1.designName);
-        System.out.println("------------------------------------------");
+       j1.getJewelleryInfo();
 
         Jewellery j2 = new Jewellery();
         j2.type = "Ring";
@@ -25,13 +19,7 @@ public class JewelleryRunner {
         j2.isTraditional = false;
         j2.designName = "Eternity Band";
 
-        System.out.println("Type: " + j2.type);
-        System.out.println("Material: " + j2.material);
-        System.out.println("Weight (g): " + j2.weightInGrams);
-        System.out.println("Price: " + j2.price);
-        System.out.println("Traditional: " + j2.isTraditional);
-        System.out.println("Design: " + j2.designName);
-        System.out.println("------------------------------------------");
+        j2.getJewelleryInfo();
 
         Jewellery j3 = new Jewellery();
         j3.type = "Bracelet";
@@ -41,13 +29,7 @@ public class JewelleryRunner {
         j3.isTraditional = false;
         j3.designName = "Celtic Knot";
 
-        System.out.println("Type: " + j3.type);
-        System.out.println("Material: " + j3.material);
-        System.out.println("Weight (g): " + j3.weightInGrams);
-        System.out.println("Price: " + j3.price);
-        System.out.println("Traditional: " + j3.isTraditional);
-        System.out.println("Design: " + j3.designName);
-        System.out.println("------------------------------------------");
+        j3.getJewelleryInfo();
 
         Jewellery j4 = new Jewellery();
         j4.type = "Earrings";
@@ -57,13 +39,7 @@ public class JewelleryRunner {
         j4.isTraditional = true;
         j4.designName = "Jhumka";
 
-        System.out.println("Type: " + j4.type);
-        System.out.println("Material: " + j4.material);
-        System.out.println("Weight (g): " + j4.weightInGrams);
-        System.out.println("Price: " + j4.price);
-        System.out.println("Traditional: " + j4.isTraditional);
-        System.out.println("Design: " + j4.designName);
-        System.out.println("------------------------------------------");
+        j4.getJewelleryInfo();
 
         Jewellery j5 = new Jewellery();
         j5.type = "Bangle";
@@ -73,13 +49,7 @@ public class JewelleryRunner {
         j5.isTraditional = true;
         j5.designName = "Floral Engraved";
 
-        System.out.println("Type: " + j5.type);
-        System.out.println("Material: " + j5.material);
-        System.out.println("Weight (g): " + j5.weightInGrams);
-        System.out.println("Price: " + j5.price);
-        System.out.println("Traditional: " + j5.isTraditional);
-        System.out.println("Design: " + j5.designName);
-        System.out.println("------------------------------------------");
+        j5.getJewelleryInfo();
 
         Jewellery j6 = new Jewellery();
         j6.type = "Anklet";
@@ -89,13 +59,7 @@ public class JewelleryRunner {
         j6.isTraditional = true;
         j6.designName = "Payal";
 
-        System.out.println("Type: " + j6.type);
-        System.out.println("Material: " + j6.material);
-        System.out.println("Weight (g): " + j6.weightInGrams);
-        System.out.println("Price: " + j6.price);
-        System.out.println("Traditional: " + j6.isTraditional);
-        System.out.println("Design: " + j6.designName);
-        System.out.println("------------------------------------------");
+        j6.getJewelleryInfo();
 
         Jewellery j7 = new Jewellery();
         j7.type = "Pendant";
@@ -105,13 +69,7 @@ public class JewelleryRunner {
         j7.isTraditional = false;
         j7.designName = "Infinity";
 
-        System.out.println("Type: " + j7.type);
-        System.out.println("Material: " + j7.material);
-        System.out.println("Weight (g): " + j7.weightInGrams);
-        System.out.println("Price: " + j7.price);
-        System.out.println("Traditional: " + j7.isTraditional);
-        System.out.println("Design: " + j7.designName);
-        System.out.println("------------------------------------------");
+       j7.getJewelleryInfo();
 
         Jewellery j8 = new Jewellery();
         j8.type = "Brooch";
@@ -121,13 +79,7 @@ public class JewelleryRunner {
         j8.isTraditional = false;
         j8.designName = "Royal Crest";
 
-        System.out.println("Type: " + j8.type);
-        System.out.println("Material: " + j8.material);
-        System.out.println("Weight (g): " + j8.weightInGrams);
-        System.out.println("Price: " + j8.price);
-        System.out.println("Traditional: " + j8.isTraditional);
-        System.out.println("Design: " + j8.designName);
-        System.out.println("------------------------------------------");
+        j8.getJewelleryInfo();
 
         Jewellery j9 = new Jewellery();
         j9.type = "Nose Ring";
@@ -137,13 +89,7 @@ public class JewelleryRunner {
         j9.isTraditional = true;
         j9.designName = "Nath";
 
-        System.out.println("Type: " + j9.type);
-        System.out.println("Material: " + j9.material);
-        System.out.println("Weight (g): " + j9.weightInGrams);
-        System.out.println("Price: " + j9.price);
-        System.out.println("Traditional: " + j9.isTraditional);
-        System.out.println("Design: " + j9.designName);
-        System.out.println("------------------------------------------");
+       j9.getJewelleryInfo();
 
         Jewellery j10 = new Jewellery();
         j10.type = "Hairpin";
@@ -153,12 +99,6 @@ public class JewelleryRunner {
         j10.isTraditional = false;
         j10.designName = "Peacock";
 
-        System.out.println("Type: " + j10.type);
-        System.out.println("Material: " + j10.material);
-        System.out.println("Weight (g): " + j10.weightInGrams);
-        System.out.println("Price: " + j10.price);
-        System.out.println("Traditional: " + j10.isTraditional);
-        System.out.println("Design: " + j10.designName);
-        System.out.println("------------------------------------------");
+        j10.getJewelleryInfo();
     }
 }

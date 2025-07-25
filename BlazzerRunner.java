@@ -8,15 +8,8 @@ public class BlazzerRunner {
         b1.price = 3500;
         b1.isFormal = true;
         b1.fabric = "Wool";
-
-        System.out.println("Brand: " + b1.brand);
-        System.out.println("Color: " + b1.color);
-        System.out.println("Size: " + b1.size);
-        System.out.println("Price: " + b1.price);
-        System.out.println("Formal: " + b1.isFormal);
-        System.out.println("Fabric: " + b1.fabric);
-        System.out.println("------------------------------------------");
-
+        b1.getBlazerInfo();
+        
         Blazzer b2 = new Blazzer();
         b2.brand = "Peter England";
         b2.color = "Blue";
@@ -24,14 +17,7 @@ public class BlazzerRunner {
         b2.price = 2999;
         b2.isFormal = true;
         b2.fabric = "Cotton";
-
-        System.out.println("Brand: " + b2.brand);
-        System.out.println("Color: " + b2.color);
-        System.out.println("Size: " + b2.size);
-        System.out.println("Price: " + b2.price);
-        System.out.println("Formal: " + b2.isFormal);
-        System.out.println("Fabric: " + b2.fabric);
-        System.out.println("------------------------------------------");
+        b2.getBlazerInfo();
 
         Blazzer b3 = new Blazzer();
         b3.brand = "Van Heusen";
@@ -40,14 +26,7 @@ public class BlazzerRunner {
         b3.price = 4200;
         b3.isFormal = false;
         b3.fabric = "Polyester";
-
-        System.out.println("Brand: " + b3.brand);
-        System.out.println("Color: " + b3.color);
-        System.out.println("Size: " + b3.size);
-        System.out.println("Price: " + b3.price);
-        System.out.println("Formal: " + b3.isFormal);
-        System.out.println("Fabric: " + b3.fabric);
-        System.out.println("------------------------------------------");
+		b3.getBlazerInfo();
 
         Blazzer b4 = new Blazzer();
         b4.brand = "Allen Solly";
@@ -57,13 +36,7 @@ public class BlazzerRunner {
         b4.isFormal = true;
         b4.fabric = "Linen";
 
-        System.out.println("Brand: " + b4.brand);
-        System.out.println("Color: " + b4.color);
-        System.out.println("Size: " + b4.size);
-        System.out.println("Price: " + b4.price);
-        System.out.println("Formal: " + b4.isFormal);
-        System.out.println("Fabric: " + b4.fabric);
-        System.out.println("------------------------------------------");
+        b4.getBlazerInfo();
 
         Blazzer b5 = new Blazzer();
         b5.brand = "Zara";
@@ -73,13 +46,7 @@ public class BlazzerRunner {
         b5.isFormal = false;
         b5.fabric = "Silk Blend";
 
-        System.out.println("Brand: " + b5.brand);
-        System.out.println("Color: " + b5.color);
-        System.out.println("Size: " + b5.size);
-        System.out.println("Price: " + b5.price);
-        System.out.println("Formal: " + b5.isFormal);
-        System.out.println("Fabric: " + b5.fabric);
-        System.out.println("------------------------------------------");
+        b5.getBlazerInfo();
 
         Blazzer b6 = new Blazzer();
         b6.brand = "Louis Philippe";
@@ -89,13 +56,7 @@ public class BlazzerRunner {
         b6.isFormal = true;
         b6.fabric = "Tweed";
 
-        System.out.println("Brand: " + b6.brand);
-        System.out.println("Color: " + b6.color);
-        System.out.println("Size: " + b6.size);
-        System.out.println("Price: " + b6.price);
-        System.out.println("Formal: " + b6.isFormal);
-        System.out.println("Fabric: " + b6.fabric);
-        System.out.println("------------------------------------------");
+        b6.getBlazerInfo();
 
         Blazzer b7 = new Blazzer();
         b7.brand = "Blackberrys";
@@ -105,14 +66,8 @@ public class BlazzerRunner {
         b7.isFormal = false;
         b7.fabric = "Velvet";
 
-        System.out.println("Brand: " + b7.brand);
-        System.out.println("Color: " + b7.color);
-        System.out.println("Size: " + b7.size);
-        System.out.println("Price: " + b7.price);
-        System.out.println("Formal: " + b7.isFormal);
-        System.out.println("Fabric: " + b7.fabric);
-        System.out.println("------------------------------------------");
-
+        b7.getBlazerInfo();
+		
         Blazzer b8 = new Blazzer();
         b8.brand = "Arrow";
         b8.color = "White";
@@ -121,13 +76,7 @@ public class BlazzerRunner {
         b8.isFormal = true;
         b8.fabric = "Cotton Blend";
 
-        System.out.println("Brand: " + b8.brand);
-        System.out.println("Color: " + b8.color);
-        System.out.println("Size: " + b8.size);
-        System.out.println("Price: " + b8.price);
-        System.out.println("Formal: " + b8.isFormal);
-        System.out.println("Fabric: " + b8.fabric);
-        System.out.println("------------------------------------------");
+        b8.getBlazerInfo();
 
         Blazzer b9 = new Blazzer();
         b9.brand = "FabIndia";
@@ -137,13 +86,7 @@ public class BlazzerRunner {
         b9.isFormal = false;
         b9.fabric = "Khadi";
 
-        System.out.println("Brand: " + b9.brand);
-        System.out.println("Color: " + b9.color);
-        System.out.println("Size: " + b9.size);
-        System.out.println("Price: " + b9.price);
-        System.out.println("Formal: " + b9.isFormal);
-        System.out.println("Fabric: " + b9.fabric);
-        System.out.println("------------------------------------------");
+        b9.getBlazerInfo();
 
         Blazzer b10 = new Blazzer();
         b10.brand = "H&M";
@@ -153,12 +96,6 @@ public class BlazzerRunner {
         b10.isFormal = false;
         b10.fabric = "Synthetic";
 
-        System.out.println("Brand: " + b10.brand);
-        System.out.println("Color: " + b10.color);
-        System.out.println("Size: " + b10.size);
-        System.out.println("Price: " + b10.price);
-        System.out.println("Formal: " + b10.isFormal);
-        System.out.println("Fabric: " + b10.fabric);
-        System.out.println("------------------------------------------");
+        b10.getBlazerInfo();
     }
 }

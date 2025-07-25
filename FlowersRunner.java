@@ -7,13 +7,8 @@ public class FlowersRunner {
         flower1.color = "Red";
         flower1.hasFragrance = true;
         flower1.pricePerPiece = 10.0;
-
-        System.out.println("Flower ID: " + flower1.flowerId);
-        System.out.println("Name: " + flower1.name);
-        System.out.println("Color: " + flower1.color);
-        System.out.println("Has Fragrance: " + flower1.hasFragrance);
-        System.out.println("Price: ₹" + flower1.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower1.getFlowersInfo();
+        
 
         Flowers flower2 = new Flowers();
         flower2.flowerId = 402;
@@ -21,13 +16,7 @@ public class FlowersRunner {
         flower2.color = "White";
         flower2.hasFragrance = true;
         flower2.pricePerPiece = 15.0;
-
-        System.out.println("Flower ID: " + flower2.flowerId);
-        System.out.println("Name: " + flower2.name);
-        System.out.println("Color: " + flower2.color);
-        System.out.println("Has Fragrance: " + flower2.hasFragrance);
-        System.out.println("Price: ₹" + flower2.pricePerPiece);
-        System.out.println("------------------------------------------");
+ flower2.getFlowersInfo();
 
         Flowers flower3 = new Flowers();
         flower3.flowerId = 403;
@@ -36,12 +25,7 @@ public class FlowersRunner {
         flower3.hasFragrance = false;
         flower3.pricePerPiece = 12.0;
 
-        System.out.println("Flower ID: " + flower3.flowerId);
-        System.out.println("Name: " + flower3.name);
-        System.out.println("Color: " + flower3.color);
-        System.out.println("Has Fragrance: " + flower3.hasFragrance);
-        System.out.println("Price: ₹" + flower3.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower3.getFlowersInfo();
 
         Flowers flower4 = new Flowers();
         flower4.flowerId = 404;
@@ -50,12 +34,7 @@ public class FlowersRunner {
         flower4.hasFragrance = false;
         flower4.pricePerPiece = 18.0;
 
-        System.out.println("Flower ID: " + flower4.flowerId);
-        System.out.println("Name: " + flower4.name);
-        System.out.println("Color: " + flower4.color);
-        System.out.println("Has Fragrance: " + flower4.hasFragrance);
-        System.out.println("Price: ₹" + flower4.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower4.getFlowersInfo();
 
         Flowers flower5 = new Flowers();
         flower5.flowerId = 405;
@@ -64,12 +43,7 @@ public class FlowersRunner {
         flower5.hasFragrance = true;
         flower5.pricePerPiece = 5.0;
 
-        System.out.println("Flower ID: " + flower5.flowerId);
-        System.out.println("Name: " + flower5.name);
-        System.out.println("Color: " + flower5.color);
-        System.out.println("Has Fragrance: " + flower5.hasFragrance);
-        System.out.println("Price: ₹" + flower5.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower5.getFlowersInfo();
 
         Flowers flower6 = new Flowers();
         flower6.flowerId = 406;
@@ -78,12 +52,7 @@ public class FlowersRunner {
         flower6.hasFragrance = false;
         flower6.pricePerPiece = 8.0;
 
-        System.out.println("Flower ID: " + flower6.flowerId);
-        System.out.println("Name: " + flower6.name);
-        System.out.println("Color: " + flower6.color);
-        System.out.println("Has Fragrance: " + flower6.hasFragrance);
-        System.out.println("Price: ₹" + flower6.pricePerPiece);
-        System.out.println("------------------------------------------");
+        flower6.getFlowersInfo();
 
         Flowers flower7 = new Flowers();
         flower7.flowerId = 407;
@@ -92,12 +61,7 @@ public class FlowersRunner {
         flower7.hasFragrance = false;
         flower7.pricePerPiece = 25.0;
 
-        System.out.println("Flower ID: " + flower7.flowerId);
-        System.out.println("Name: " + flower7.name);
-        System.out.println("Color: " + flower7.color);
-        System.out.println("Has Fragrance: " + flower7.hasFragrance);
-        System.out.println("Price: ₹" + flower7.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower7.getFlowersInfo();
 
         Flowers flower8 = new Flowers();
         flower8.flowerId = 408;
@@ -106,12 +70,7 @@ public class FlowersRunner {
         flower8.hasFragrance = true;
         flower8.pricePerPiece = 6.0;
 
-        System.out.println("Flower ID: " + flower8.flowerId);
-        System.out.println("Name: " + flower8.name);
-        System.out.println("Color: " + flower8.color);
-        System.out.println("Has Fragrance: " + flower8.hasFragrance);
-        System.out.println("Price: ₹" + flower8.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower8.getFlowersInfo();
 
         Flowers flower9 = new Flowers();
         flower9.flowerId = 409;
@@ -120,12 +79,7 @@ public class FlowersRunner {
         flower9.hasFragrance = true;
         flower9.pricePerPiece = 20.0;
 
-        System.out.println("Flower ID: " + flower9.flowerId);
-        System.out.println("Name: " + flower9.name);
-        System.out.println("Color: " + flower9.color);
-        System.out.println("Has Fragrance: " + flower9.hasFragrance);
-        System.out.println("Price: ₹" + flower9.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower9.getFlowersInfo();
 
         Flowers flower10 = new Flowers();
         flower10.flowerId = 410;
@@ -134,11 +88,6 @@ public class FlowersRunner {
         flower10.hasFragrance = false;
         flower10.pricePerPiece = 7.0;
 
-        System.out.println("Flower ID: " + flower10.flowerId);
-        System.out.println("Name: " + flower10.name);
-        System.out.println("Color: " + flower10.color);
-        System.out.println("Has Fragrance: " + flower10.hasFragrance);
-        System.out.println("Price: ₹" + flower10.pricePerPiece);
-        System.out.println("------------------------------------------");
+         flower10.getFlowersInfo();
     }
 }

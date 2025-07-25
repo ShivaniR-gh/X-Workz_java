@@ -9,13 +9,7 @@ public class FestivalRunner {
         festival1.durationInDays = 5;
         festival1.budget = 10000;
 
-        System.out.println("Name: " + festival1.name);
-        System.out.println("Season: " + festival1.season);
-        System.out.println("Origin Country: " + festival1.originCountry);
-        System.out.println("Religious: " + festival1.isReligious);
-        System.out.println("Duration (days): " + festival1.durationInDays);
-        System.out.println("Budget: " + festival1.budget);
-        System.out.println("------------------------------------------");
+        festival1.getFestivalInfo();
 
         Festival festival2 = new Festival();
         festival2.name = "Christmas";
@@ -25,13 +19,7 @@ public class FestivalRunner {
         festival2.durationInDays = 1;
         festival2.budget = 8000;
 
-        System.out.println("Name: " + festival2.name);
-        System.out.println("Season: " + festival2.season);
-        System.out.println("Origin Country: " + festival2.originCountry);
-        System.out.println("Religious: " + festival2.isReligious);
-        System.out.println("Duration (days): " + festival2.durationInDays);
-        System.out.println("Budget: " + festival2.budget);
-        System.out.println("------------------------------------------");
+       festival2.getFestivalInfo();
 
         Festival festival3 = new Festival();
         festival3.name = "Holi";
@@ -41,13 +29,7 @@ public class FestivalRunner {
         festival3.durationInDays = 2;
         festival3.budget = 4000;
 
-        System.out.println("Name: " + festival3.name);
-        System.out.println("Season: " + festival3.season);
-        System.out.println("Origin Country: " + festival3.originCountry);
-        System.out.println("Religious: " + festival3.isReligious);
-        System.out.println("Duration (days): " + festival3.durationInDays);
-        System.out.println("Budget: " + festival3.budget);
-        System.out.println("------------------------------------------");
+        festival3.getFestivalInfo();
 
         Festival festival4 = new Festival();
         festival4.name = "Eid";
@@ -57,13 +39,7 @@ public class FestivalRunner {
         festival4.durationInDays = 1;
         festival4.budget = 7000;
 
-        System.out.println("Name: " + festival4.name);
-        System.out.println("Season: " + festival4.season);
-        System.out.println("Origin Country: " + festival4.originCountry);
-        System.out.println("Religious: " + festival4.isReligious);
-        System.out.println("Duration (days): " + festival4.durationInDays);
-        System.out.println("Budget: " + festival4.budget);
-        System.out.println("------------------------------------------");
+        festival4.getFestivalInfo();
 
         Festival festival5 = new Festival();
         festival5.name = "Thanksgiving";
@@ -73,13 +49,7 @@ public class FestivalRunner {
         festival5.durationInDays = 1;
         festival5.budget = 5000;
 
-        System.out.println("Name: " + festival5.name);
-        System.out.println("Season: " + festival5.season);
-        System.out.println("Origin Country: " + festival5.originCountry);
-        System.out.println("Religious: " + festival5.isReligious);
-        System.out.println("Duration (days): " + festival5.durationInDays);
-        System.out.println("Budget: " + festival5.budget);
-        System.out.println("------------------------------------------");
+        festival5.getFestivalInfo();
 
         Festival festival6 = new Festival();
         festival6.name = "Onam";
@@ -89,13 +59,7 @@ public class FestivalRunner {
         festival6.durationInDays = 10;
         festival6.budget = 6000;
 
-        System.out.println("Name: " + festival6.name);
-        System.out.println("Season: " + festival6.season);
-        System.out.println("Origin Country: " + festival6.originCountry);
-        System.out.println("Religious: " + festival6.isReligious);
-        System.out.println("Duration (days): " + festival6.durationInDays);
-        System.out.println("Budget: " + festival6.budget);
-        System.out.println("------------------------------------------");
+        festival6.getFestivalInfo();
 
         Festival festival7 = new Festival();
         festival7.name = "Halloween";
@@ -105,14 +69,8 @@ public class FestivalRunner {
         festival7.durationInDays = 1;
         festival7.budget = 4500;
 
-        System.out.println("Name: " + festival7.name);
-        System.out.println("Season: " + festival7.season);
-        System.out.println("Origin Country: " + festival7.originCountry);
-        System.out.println("Religious: " + festival7.isReligious);
-        System.out.println("Duration (days): " + festival7.durationInDays);
-        System.out.println("Budget: " + festival7.budget);
-        System.out.println("------------------------------------------");
-
+        festival7.getFestivalInfo();
+        
         Festival festival8 = new Festival();
         festival8.name = "Pongal";
         festival8.season = "Winter";
@@ -121,13 +79,7 @@ public class FestivalRunner {
         festival8.durationInDays = 4;
         festival8.budget = 3500;
 
-        System.out.println("Name: " + festival8.name);
-        System.out.println("Season: " + festival8.season);
-        System.out.println("Origin Country: " + festival8.originCountry);
-        System.out.println("Religious: " + festival8.isReligious);
-        System.out.println("Duration (days): " + festival8.durationInDays);
-        System.out.println("Budget: " + festival8.budget);
-        System.out.println("------------------------------------------");
+        festival8.getFestivalInfo();
 
         Festival festival9 = new Festival();
         festival9.name = "Chinese New Year";
@@ -137,14 +89,8 @@ public class FestivalRunner {
         festival9.durationInDays = 15;
         festival9.budget = 9000;
 
-        System.out.println("Name: " + festival9.name);
-        System.out.println("Season: " + festival9.season);
-        System.out.println("Origin Country: " + festival9.originCountry);
-        System.out.println("Religious: " + festival9.isReligious);
-        System.out.println("Duration (days): " + festival9.durationInDays);
-        System.out.println("Budget: " + festival9.budget);
-        System.out.println("------------------------------------------");
-
+        festival9.getFestivalInfo();
+		
         Festival festival10 = new Festival();
         festival10.name = "Raksha Bandhan";
         festival10.season = "Monsoon";
@@ -153,13 +99,7 @@ public class FestivalRunner {
         festival10.durationInDays = 1;
         festival10.budget = 2000;
 
-        System.out.println("Name: " + festival10.name);
-        System.out.println("Season: " + festival10.season);
-        System.out.println("Origin Country: " + festival10.originCountry);
-        System.out.println("Religious: " + festival10.isReligious);
-        System.out.println("Duration (days): " + festival10.durationInDays);
-        System.out.println("Budget: " + festival10.budget);
-        System.out.println("------------------------------------------");
+        festival10.getFestivalInfo();
 		
 		Festival festival11 = new Festival();
         festival11.name = "Diwali";
@@ -169,13 +109,7 @@ public class FestivalRunner {
         festival11.durationInDays = 5;
         festival11.budget = 10000;
 
-        System.out.println("Name: " + festival11.name);
-        System.out.println("Season: " + festival11.season);
-        System.out.println("Origin Country: " + festival11.originCountry);
-        System.out.println("Religious: " + festival11.isReligious);
-        System.out.println("Duration (days): " + festival11.durationInDays);
-        System.out.println("Budget: " + festival11.budget);
-        System.out.println("------------------------------------------");
+        festival11.getFestivalInfo();
 
         Festival festival12 = new Festival();
         festival12.name = "Christmas";
@@ -185,13 +119,7 @@ public class FestivalRunner {
         festival12.durationInDays = 1;
         festival12.budget = 8000;
 
-        System.out.println("Name: " + festival12.name);
-        System.out.println("Season: " + festival12.season);
-        System.out.println("Origin Country: " + festival12.originCountry);
-        System.out.println("Religious: " + festival12.isReligious);
-        System.out.println("Duration (days): " + festival12.durationInDays);
-        System.out.println("Budget: " + festival12.budget);
-        System.out.println("------------------------------------------");
+        festival12.getFestivalInfo();
 
         Festival festival13 = new Festival();
         festival13.name = "Holi";
@@ -201,14 +129,8 @@ public class FestivalRunner {
         festival13.durationInDays = 2;
         festival13.budget = 4000;
 
-        System.out.println("Name: " + festival13.name);
-        System.out.println("Season: " + festival13.season);
-        System.out.println("Origin Country: " + festival13.originCountry);
-        System.out.println("Religious: " + festival13.isReligious);
-        System.out.println("Duration (days): " + festival13.durationInDays);
-        System.out.println("Budget: " + festival13.budget);
-        System.out.println("------------------------------------------");
-
+        festival13.getFestivalInfo();
+		
         Festival festival14 = new Festival();
         festival14.name = "Eid";
         festival14.season = "Varies";
@@ -217,13 +139,7 @@ public class FestivalRunner {
         festival14.durationInDays = 1;
         festival14.budget = 7000;
 
-        System.out.println("Name: " + festival14.name);
-        System.out.println("Season: " + festival14.season);
-        System.out.println("Origin Country: " + festival14.originCountry);
-        System.out.println("Religious: " + festival14.isReligious);
-        System.out.println("Duration (days): " + festival14.durationInDays);
-        System.out.println("Budget: " + festival14.budget);
-        System.out.println("------------------------------------------");
+        festival14.getFestivalInfo();
 
         Festival festival15 = new Festival();
         festival15.name = "Thanksgiving";
@@ -233,14 +149,8 @@ public class FestivalRunner {
         festival15.durationInDays = 1;
         festival15.budget = 5000;
 
-        System.out.println("Name: " + festival15.name);
-        System.out.println("Season: " + festival15.season);
-        System.out.println("Origin Country: " + festival15.originCountry);
-        System.out.println("Religious: " + festival15.isReligious);
-        System.out.println("Duration (days): " + festival15.durationInDays);
-        System.out.println("Budget: " + festival15.budget);
-        System.out.println("------------------------------------------");
-
+       festival15.getFestivalInfo();
+	   
         Festival festival16 = new Festival();
         festival16.name = "Onam";
         festival16.season = "Monsoon";
@@ -249,13 +159,7 @@ public class FestivalRunner {
         festival16.durationInDays = 10;
         festival16.budget = 6000;
 
-        System.out.println("Name: " + festival16.name);
-        System.out.println("Season: " + festival16.season);
-        System.out.println("Origin Country: " + festival16.originCountry);
-        System.out.println("Religious: " + festival16.isReligious);
-        System.out.println("Duration (days): " + festival16.durationInDays);
-        System.out.println("Budget: " + festival16.budget);
-        System.out.println("------------------------------------------");
+       festival16.getFestivalInfo();
 
         Festival festival17 = new Festival();
         festival17.name = "Halloween";
@@ -265,13 +169,7 @@ public class FestivalRunner {
         festival17.durationInDays = 1;
         festival17.budget = 4500;
 
-        System.out.println("Name: " + festival17.name);
-        System.out.println("Season: " + festival17.season);
-        System.out.println("Origin Country: " + festival17.originCountry);
-        System.out.println("Religious: " + festival17.isReligious);
-        System.out.println("Duration (days): " + festival17.durationInDays);
-        System.out.println("Budget: " + festival17.budget);
-        System.out.println("------------------------------------------");
+        festival17.getFestivalInfo();
 
         Festival festival18 = new Festival();
         festival18.name = "Pongal";
@@ -281,13 +179,7 @@ public class FestivalRunner {
         festival18.durationInDays = 4;
         festival18.budget = 3500;
 
-        System.out.println("Name: " + festival18.name);
-        System.out.println("Season: " + festival18.season);
-        System.out.println("Origin Country: " + festival18.originCountry);
-        System.out.println("Religious: " + festival18.isReligious);
-        System.out.println("Duration (days): " + festival18.durationInDays);
-        System.out.println("Budget: " + festival18.budget);
-        System.out.println("------------------------------------------");
+        festival18.getFestivalInfo();
 
         Festival festival19 = new Festival();
         festival19.name = "Chinese New Year";
@@ -297,13 +189,7 @@ public class FestivalRunner {
         festival19.durationInDays = 15;
         festival19.budget = 9000;
 
-        System.out.println("Name: " + festival19.name);
-        System.out.println("Season: " + festival19.season);
-        System.out.println("Origin Country: " + festival19.originCountry);
-        System.out.println("Religious: " + festival19.isReligious);
-        System.out.println("Duration (days): " + festival19.durationInDays);
-        System.out.println("Budget: " + festival19.budget);
-        System.out.println("------------------------------------------");
+        festival19.getFestivalInfo();
 
         Festival festival20 = new Festival();
         festival20.name = "Raksha Bandhan";
@@ -313,12 +199,6 @@ public class FestivalRunner {
         festival20.durationInDays = 1;
         festival20.budget = 2000;
 
-        System.out.println("Name: " + festival20.name);
-        System.out.println("Season: " + festival20.season);
-        System.out.println("Origin Country: " + festival20.originCountry);
-        System.out.println("Religious: " + festival20.isReligious);
-        System.out.println("Duration (days): " + festival20.durationInDays);
-        System.out.println("Budget: " + festival20.budget);
-        System.out.println("------------------------------------------");
+        festival20.getFestivalInfo();
     }
 }

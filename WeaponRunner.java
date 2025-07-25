@@ -7,12 +7,7 @@ public class WeaponRunner {
         weapon1.type = "Melee";
         weapon1.material = "Steel";
         weapon1.isLicensed = false;
-        System.out.println("Weapon ID: " + weapon1.weaponId);
-        System.out.println("Name: " + weapon1.name);
-        System.out.println("Type: " + weapon1.type);
-        System.out.println("Material: " + weapon1.material);
-        System.out.println("Licensed: " + weapon1.isLicensed);
-        System.out.println("-----------------------------------");
+        weapon1.getWeaponInfo();
 
         Weapon weapon2 = new Weapon();
         weapon2.weaponId = 102;
